@@ -1,0 +1,45 @@
+Service Type,Configuration Item,Status,Importance,Reference WBS Item
+Account Baseline,AWS CloudTrail Setup,Required,High,2.01.2
+Account Baseline,AWS Config Setup,Required,High,2.01.3
+Account Baseline,Custom Password Policies (with MFA),Required,High,2.01.4
+Account Baseline,IAM Users Setup,Required,High,2.01.5
+Organizations,Production OU Setup,Required,High,2.05.1
+Organizations,Non-Production OU Setup,Required,High,2.05.3
+Organizations,Security OU Setup,Required,High,2.05.4
+Organizations,Infrastructure OU Setup,Required,High,2.05.6
+Network,VPC Design and Setup,Required,High,2.03.1
+Network,Subnet Configurations,Required,High,2.03.2
+Network,NACLs & Route Tables,Required,High,2.03.3
+Network,Internet Gateway,Required,High,2.03.4
+Network,NAT Gateway (AZ1 & AZ2),Required,High,2.03.5
+Network,VPC Endpoints (S3/DynamoDB/EIC),Required,High,2.03.6
+Network,Transit Gateway Setup,Required,High,2.03.7
+Security,GuardDuty Enable,Required,High,2.02.1
+Security,Security Hub (CIS Standard),Required,High,2.02.2
+Security,IAM Access Analyzer,Required,High,2.02.3
+Security,Amazon Inspector,Required,High,2.02.4
+Security,Secrets Manager (RDS Credentials),Required,High,2.02.5
+Database,RDS DB Subnet Group,Required,High,2.09.1
+Database,RDS Parameter Group,Required,High,2.09.2
+Database,RDS Option Group,Required,High,2.09.3
+Database,RDS Security Group,Required,High,2.09.5
+Database,RDS Encryption at Rest,Required,High,2.09.6
+Load Balancer,Application Load Balancer Setup,Required,High,2.10.1
+Load Balancer,ALB Listeners & Rules,Required,High,2.10.2
+Load Balancer,Target Groups Configuration,Required,High,2.10.3
+WAF,Web ACL Configuration,Required,High,2.11.1
+WAF,WAF Logging Setup,Required,High,2.11.3
+Storage,S3 Bucket for DB Dumps,Required,High,2.12.1
+Storage,S3 Bucket for Logs,Required,High,2.12.2
+Storage,S3 Encryption Setup,Required,High,2.12.3
+VPN,Customer Gateway Setup,Required,High,2.13.1
+VPN,VPN Connection Configuration,Required,High,2.13.3
+Operations,AWS Backup for EC2,Required,High,2.04.1
+Operations,AWS Backup for RDS,Required,High,2.04.2
+Operations,CloudWatch Dashboard,Required,High,2.04.4
+Operations,CloudWatch Alarms,Required,High,2.04.5
+Operations,SNS Topics for Alerts,Required,High,2.04.6
+Operations,CloudWatch Log Groups,Required,High,2.04.7
+Container,ECS Cluster Setup,Required,High,2.07.1
+Container,ECS Task Definitions,Required,High,2.08.3
+Container,ECR Repository Setup,Required,High,2.08.4
